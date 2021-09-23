@@ -121,7 +121,13 @@ mongoose.connect(DB,{
 })
 
 
+const port = process.env.PORT || 4000
 
-app.listen(4000, ()=>{
+
+app.listen(port, ()=>{
     console.log("listening to port 4000")
 })
+
+
+
+// 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
